@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start:dev": "",
-    "start": "",
+    "start": "node server.js",
     "server": "",
     "build": "",
     "install": "",
@@ -16,10 +16,16 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "idb": "^7.1.1",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
   }
 }
