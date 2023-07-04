@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository contains a text editor application that runs in the browser as a Progressive Web App (PWA). It features data persistence techniques using IndexedDB as a redundancy option and functions offline. The application is deployed to Heroku using the Heroku Deployment Guide on The Full-Stack Blog.
+This is a text editor application that runs in the browser as a Progressive Web App (PWA). It features data persistence techniques using IndexedDB and can be downloaded to function offline.
 
 ## Table of Contents
 
